@@ -18,7 +18,7 @@ logwatch_services: [all]
 # specifiy service names without prepending a hyphen, default is []
 logwatch_disabled_services: []
 
-# valid ranges are: yesterday (yesterday), today, all
+# valid ranges are: yesterday (yesterday), today, all, between -7 days and -1 days (weekly)
 logwatch_range: 'yesterday'
 
 # search through the archives, default is Yes
@@ -38,3 +38,5 @@ logwatch_html_wrap: 80
 
 #Inhibits additional name lookups, displaying IP addresses numerically.
 logwatch_numeric: 'No'
+
+logwatch_run_weekly: false
