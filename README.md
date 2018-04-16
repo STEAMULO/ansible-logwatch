@@ -82,4 +82,6 @@ License
 Author Information
 ------------------
 
-Thomas Mohaupt https://github.com/thomo/ansible-logwatch
+Steamulo - www.steamulo.com
+
+Forked from [Thomas Mohaupt](https://github.com/thomo)
